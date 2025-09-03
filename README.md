@@ -33,7 +33,7 @@ A ideia é simular um site institucional para a empresa fictícia **HospedagemSe
 - Criar um **layout responsivo** com colunas e linhas flexíveis.  
 - Estruturar um site completo simulando um projeto real.  
 
-## 🖼Exemplo de uso do Flexbox  
+## Exemplo de uso do Flexbox  
 - Distribuição de produtos em **cards lado a lado**.  
 - Layout de preços em **colunas flexíveis**.  
 - Alinhamento de imagens e textos na seção **Sobre**.  
