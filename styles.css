@@ -46,7 +46,7 @@ img {
 }
 
 .super-info a {
-	color: white;
+	color: black;
 }
 
 /*Menu*/
@@ -134,6 +134,19 @@ img {
 	margin: 0 10px;
 }
 
+.caracteristica ul{
+	flex-wrap: wrap;
+	 list-style-type: disc; /* bolinha padrão */
+	 max-width: 300px;
+	margin: 20px;
+	line-height: 1.4;
+	font-size: 1em;
+	font-style: italic;
+	color: #7c7c7c;
+	font-weight: bold;
+
+}
+
 /*Produtos*/
 
 .produtos {
@@ -158,22 +171,23 @@ img {
 }
 
 .produtos-item h2 {
-	font-size: 3em;
+	font-size: 2.5em;
 	color: #a4a4a4;
 	background: #f7f7f7;
 	padding: 60px 20px;
-}
-
-.purple {
-	border-top: 8px solid #ae81ff;
-}
-
-.pink {
-	border-top: 8px solid #f9265e;
+	text-align: center;
 }
 
 .blue {
-	border-top: 8px solid #66d9eb;
+	border-top: 8px solid #3055fa;
+}
+
+.pink {
+	border-top: 8px solid #f926a8;
+}
+
+.laranja {
+	border-top: 8px solid #ff8800;
 }
 
 /*Preco*/
@@ -234,21 +248,24 @@ img {
 .preco-item li::after {
 	content: '';
 	display: block;
+	margin: 10px;
 	width: 6px;
 	height: 6px;
-	background: #2c70ff;
+	background: #000000;
 	border-radius: 50%;
 }
 
 .preco-item a {
 	max-width: 300px;
+	width: 200px;
 	display: block;
 	margin: 20px auto;
 	border: 4px solid;
+	border-radius: 10px;
 	color: #222222;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 2.25em;
+	font-size: 1.25em;
 	padding: 15px 0;
 	text-align: center;
 }
@@ -295,15 +312,15 @@ img {
 }
 
 .qualidade-item:nth-of-type(3n+1) h2::before {
-	background: #ae81ff;
+	background: #ff8800;
 }
 
 .qualidade-item:nth-of-type(3n+2) h2::before {
-	background: #f9265e;
+	background: #f926a8;
 }
 
 .qualidade-item:nth-of-type(3n+3) h2::before {
-	background: #66d9eb;
+	background: #3055fa;
 }
 
 .qualidade-item p {
@@ -340,7 +357,7 @@ img {
 }
 
 .newsletter-form {
-	flex: 2 1 260px;
+	flex: 1;
 	margin: 0 10px;
 	align-self: center;
 	display: flex;
@@ -348,7 +365,7 @@ img {
 }
 
 .newsletter-form input {
-	flex: 3 1 260px;
+	flex: 1;
 	font-size: 1.25em;
 	color: #7c7c7c;
 	font-style: italic;
@@ -356,8 +373,9 @@ img {
 	border: 4px solid #2c70ff;
 	background: transparent;
 	padding: 15px 10px;
-	margin: 0px;
-	border-radius: 0px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	
 }
 
 .newsletter-form button {
@@ -370,7 +388,8 @@ img {
 	color: white;
 	margin: 0px;
 	cursor: pointer;
-	border: 0px;
+	border: 2px;
+	border-radius: 10px;
 	padding: 15px 10px;
 }
 
