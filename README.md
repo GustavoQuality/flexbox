@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido como parte dos meus estudos de **HTML5 + CSS3 (Flexbox)**.  
 A ideia é simular um site institucional para a empresa fictícia **HospedagemSegura**, que oferece soluções digitais como hospedagem de sites, domínios, servidores em nuvem e e-mails profissionais.  
 
-## 🚀 Tecnologias utilizadas  
+##  Tecnologias utilizadas  
 - **HTML5** para estruturação da página  
 - **CSS3 com Flexbox** para layout responsivo  
 - **Google Fonts (Nunito)** para tipografia  
@@ -18,7 +18,7 @@ A ideia é simular um site institucional para a empresa fictícia **HospedagemSe
  ┗ 📜 README.md         # Documentação do projeto
 ```
 
-## 📑 Seções do site  
+##  Seções do site  
 - **Super Info** → Informações de contato e horário de atendimento  
 - **Menu de navegação** → Links para diferentes seções  
 - **Sobre** → Breve apresentação da empresa e diferenciais  
@@ -28,17 +28,17 @@ A ideia é simular um site institucional para a empresa fictícia **HospedagemSe
 - **Newsletter** → Formulário de inscrição  
 - **Rodapé** → Direitos autorais  
 
-## 🎯 Objetivo do estudo  
+##  Objetivo do estudo  
 - Praticar **Flexbox** para organizar elementos em containers.  
 - Criar um **layout responsivo** com colunas e linhas flexíveis.  
 - Estruturar um site completo simulando um projeto real.  
 
-## 🖼️ Exemplo de uso do Flexbox  
+## Exemplo de uso do Flexbox  
 - Distribuição de produtos em **cards lado a lado**.  
 - Layout de preços em **colunas flexíveis**.  
 - Alinhamento de imagens e textos na seção **Sobre**.  
 
-## 🔗 Como clonar e executar o projeto  
+## Como clonar e executar o projeto  
 
 1. Clone este repositório:  
    ```bash
